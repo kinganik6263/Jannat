@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "bot",
+  name: "Bot",
   version: "0.0.2",
   permission: 0,
   prefix: 'awto',
