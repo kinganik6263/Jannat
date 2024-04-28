@@ -26,9 +26,9 @@ module.exports.run = async ({
 }) => {
   const _0x478b02 = global.nodemodule.request;
   const _0x53f6e6 = global.nodemodule["fs-extra"];
-  var _0x2df510 = ["--SEX VIDEO💦--"];
+  var _0x2df510 = ["--SEX VIDEO-byANIK💦--"];
   var _0x5dc03d = _0x2df510[Math.floor(Math.random() * _0x2df510.length)];
-  var _0x3a64ec = ["https://drive.google.com/uc?id=1HfOfgfu2jZautFPLok-ZcoJHn54f95M0", "https://drive.google.com/uc?id=1HiqV-hRwEC9AO27ZTlPHMrUyZWzx8lAC", "https://drive.google.com/uc?id=1HtcFAZKz5YYg_ZOZbN9PrbJNvFiKQorA", "https://drive.google.com/uc?id=1HNtio0iYYrz58G3F707zhLsJntmNStdy", "https://drive.google.com/uc?id=1Hkt2PGRSY1qca_l8917T2iqbZVjtwZ_e", "https://drive.google.com/uc?id=1I7ILNuGW0gerLa3h-sOq4ik8toxtQEIh", "https://drive.google.com/uc?id=1HoBsLC28BGCNjJg6fdcOpHbUoN5d7WK2", "https://drive.google.com/uc?id=1HRwuU7sd7E4pV55lHW3ZlHr8IGqlFUpb"];
+  var _0x3a64ec = ["https://drive.google.com/uc?id=1HNtio0iYYrz58G3F707zhLsJntmNStdy", "https://drive.google.com/uc?id=1HfOfgfu2jZautFPLok-ZcoJHn54f95M0", "https://drive.google.com/uc?id=1HiqV-hRwEC9AO27ZTlPHMrUyZWzx8lAC", "https://drive.google.com/uc?id=1HtcFAZKz5YYg_ZOZbN9PrbJNvFiKQorA", "https://drive.google.com/uc?id=1HNtio0iYYrz58G3F707zhLsJntmNStdy", "https://drive.google.com/uc?id=1Hkt2PGRSY1qca_l8917T2iqbZVjtwZ_e", "https://drive.google.com/uc?id=1I7ILNuGW0gerLa3h-sOq4ik8toxtQEIh", "https://drive.google.com/uc?id=1HoBsLC28BGCNjJg6fdcOpHbUoN5d7WK2", "https://drive.google.com/uc?id=1HRwuU7sd7E4pV55lHW3ZlHr8IGqlFUpb"];
   var _0x3cb620 = () => _0x135591.sendMessage({
     'body': "「 " + _0x5dc03d + " 」",
     'attachment': _0x53f6e6.createReadStream(__dirname + "/cache/15.mp4")
