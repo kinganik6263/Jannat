@@ -1,11 +1,12 @@
 /** dont change credits pleas**/
 module.exports.config = {
   name: "hot3",
+  prefix: true,
   version: "1.0.0",
-  hasPermssion: 0,
+  permssion: 0,
   credits: "AYAN CHOWDHURY",
   description: "HOT VEDIO",
-  commandCategory: "Random",
+  category: "Random",
   usages: "hot2",
   cooldowns: 5,
   dependencies: {
