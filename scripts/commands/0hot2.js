@@ -4,8 +4,7 @@ module.exports.config = {
   prefix: true,
   version: "1.0.",
   permssion: 0,
-  credits: "AYAN CHOWDHURY",
-  //dont change credit😠
+  credits: "Nayan",
   description: "rendom  hot video",
   category: "sexy video",
   usages: "[sexy]",
