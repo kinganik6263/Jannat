@@ -1,5 +1,5 @@
 module.exports.config = {
-  'name': "sexvedio",
+  'name': "sexvideo",
   'prefix': true,
   'version': "1.0.0",
   'permssion': 0x0,
