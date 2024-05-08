@@ -86,7 +86,7 @@ module.exports.run = async function ({ api, event, args, Users }) {
     if (!args[0]) return api.sendMessage("Please input message", threadID);
     let allThread = global.data.allThreadID || [];
     let can = 0, canNot = 0;
-    let text = `====== [ MESSAGE FROM ADMIN ] ======\n--------------\n『𝗧𝗶𝗺𝗲』: ${gio}\n\n--------------\n『MESSAGE』 : ${args.join(" ")}\n\n--------------\n『ADMIN NAME』 ${await Users.getNameUser(senderID)} \n--------------\nReply to this Message if you want to respond to this Announce`;
+    let text = `====== [ মেসেজ ফ্রম এডমিন] ======\n--------------\n『টাইম』: ${gio}\n\n--------------\n『মেসেজ』 : ${args.join(" ")}\n\n--------------\n『এডমিন』 ${await Users.getNameUser(senderID)} \n--------------\n Reply to this Message if you want to respond to this Announce`;
     if(event.type == "message_reply") text = await getAtm(messageReply.attachments, `====== [ MESSAGE FROM ADMIN ] ======\n--------------\n『𝗧𝗶𝗺𝗲』: ${gio}\n\n--------------\n『MESSAGE』 : ${args.join(" ")}\n\n--------------\n『ADMIN NAME』 ${await Users.getNameUser(senderID)}\n--------------\nReply to this Message if you want to respond to this Announce`);
     await new Promise(resolve => {
         allThread.forEach((each) => {
