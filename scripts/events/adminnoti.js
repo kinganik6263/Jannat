@@ -77,10 +77,10 @@ module.exports.run = async function({ event, api, Threads, Users }) {
         break;
       }
       case "log:thread-call": {
-        if (logMessageData.event === "group_call_started") {
+        if (logMessageData.event === "গ্রুপ_কল_শুরু হয়েছে") {
           const name = await Users.getNameUser(logMessageData.caller_id);
           api.sendMessage(`[ GROUP UPDATE ]\n❯ ${name} STARTED A ${(logMessageData.video) ? 'VIDEO ' : ''}CALL.`, threadID);
-        } else if (logMessageData.event === "group_call_ended") {
+        } else if (logMessageData.event === "গ্রুপ_কল_শেষ") {
           const callDuration = logMessageData.call_duration;
           const hours = Math.floor(callDuration / 3600);
           const minutes = Math.floor((callDuration - (hours * 3600)) / 60);
